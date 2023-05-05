@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(90deg, #5f389985, #935fee93);
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    padding-left: 50px;
+    padding-right: 0px;
+    padding-top: 30px;
+    height: 90px;
+}
+
+.logo img{
+    width: 48px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h1{
+    float: right;
+    padding-right: 90%;
+    color: #ffffff;;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+div.principal{
+    display: inline-block;
+    width: 100%;
+    height: 800px;
+
+}
+.text-left > h1{
+    font-size: 55px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.text-left > article{
+    background-color: #33126477;
+}
+.text-left > article > h1{
+    line-height: 70px;
+    font-weight: 700;
+    font-size: 55px;
+    padding-top: 20px;
+    padding-left: 200px;
+    color: rgb(255, 200, 49);
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.text-left > article > p{
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+footer p {
+    padding-top: 170px;
+    padding-right: 353px;
+    text-align: right;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: white;
+}
+footer p a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+footer p a:hover {
+    text-decoration: underline;    
+}
+input {
+    text-indent: 20px;
+    font-style: normal;
+    font-weight: 200;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 45px;
+    border: 10px;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-style: italic;
+}
+div.login {
+    background-color: rgb(224, 224, 224);
+    border: 10px;
+    border-radius: 30px;
+    width: 450px;
+    height: 550px;
+    margin-top: -400px !important;
+    margin-right: 220px;
+    float: right;
+}
+div.login h1 {
+    color: rgb(129, 129, 129);
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div.usuario {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+div.password{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+div.botoes a{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font: 200;
+    color: rgb(255, 200, 49);
+    text-decoration: none;
+}
+div.botoes a:hover{
+    text-decoration: underline;
+}
+.botao-login{
+    padding-top: 50px;
+    padding-left: 77px;
+}
